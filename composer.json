@@ -1,7 +1,6 @@
 {
     "name": "dev5softrix/testing-module",
     "description": "",
-    "type": "laravel-module",
     "authors": [
         {
             "name": "Nicolas Widart",
@@ -10,24 +9,22 @@
     ],
     "extra": {
         "laravel": {
-            "providers": [
-                "Modules\\TestingModule\\Providers\\TestingModuleServiceProvider"
-            ],
-            "aliases": {}
+            "providers": [],
+            "aliases": {
+
+            }
         }
     },
     "autoload": {
         "psr-4": {
-            "Modules\\TestingModule\\": "app/",
-            "Modules\\TestingModule\\Database\\Factories\\": "database/factories/",
-            "Modules\\TestingModule\\Database\\Seeders\\": "database/seeders/"
+            "Modules\\Blog\\": "app/",
+            "Modules\\Blog\\Database\\Factories\\": "database/factories/",
+            "Modules\\Blog\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Modules\\TestingModule\\Tests\\": "tests/"
+            "Modules\\Blog\\Tests\\": "tests/"
         }
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    }
 }

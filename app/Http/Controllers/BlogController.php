@@ -1,18 +1,18 @@
 <?php
 
-namespace Modules\TestingModule\Http\Controllers;
+namespace Modules\Blog\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class TestingModuleController extends Controller
+class BlogController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('testingmodule::index');
+        return view('blog::index');
     }
 
     /**
@@ -20,7 +20,7 @@ class TestingModuleController extends Controller
      */
     public function create()
     {
-        return view('testingmodule::create');
+        return view('blog::create');
     }
 
     /**
@@ -33,7 +33,7 @@ class TestingModuleController extends Controller
      */
     public function show($id)
     {
-        return view('testingmodule::show');
+        return view('blog::show');
     }
 
     /**
@@ -41,7 +41,7 @@ class TestingModuleController extends Controller
      */
     public function edit($id)
     {
-        return view('testingmodule::edit');
+        return view('blog::edit');
     }
 
     /**

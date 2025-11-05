@@ -1,5 +1,5 @@
-<x-testingmodule::layouts.master>
+<x-blog::layouts.master>
     <h1>Hello World</h1>
 
-    <p>Module: {!! config('testingmodule.name') !!}</p>
-</x-testingmodule::layouts.master>
+    <p>Module: {!! config('blog.name') !!}</p>
+</x-blog::layouts.master>
