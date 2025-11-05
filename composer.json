@@ -1,6 +1,7 @@
 {
-    "name": "nwidart/testingmodule",
+    "name": "dev5softrix/testingmodule",
     "description": "",
+    "type": "laravel-module",
     "authors": [
         {
             "name": "Nicolas Widart",
