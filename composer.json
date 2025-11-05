@@ -13,9 +13,7 @@
             "providers": [
                 "Modules\\TestingModule\\Providers\\TestingModuleServiceProvider"
             ],
-            "aliases": {
-
-            }
+            "aliases": {}
         }
     },
     "autoload": {
@@ -29,5 +27,7 @@
         "psr-4": {
             "Modules\\TestingModule\\Tests\\": "tests/"
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
