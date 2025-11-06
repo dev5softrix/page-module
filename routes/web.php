@@ -3,6 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use Modules\Blog\Http\Controllers\BlogController;
 
-Route::middleware(['auth', 'verified'])->group(function () {
-    Route::resource('blogs', BlogController::class)->names('blog');
+// Route::middleware(['auth', 'verified'])->group(function () {
+//     Route::resource('blogs', BlogController::class)->names('blog');
+// });
+
+Route::any('/testing-route', function () {
+    return 'testing route';
 });
