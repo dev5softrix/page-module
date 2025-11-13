@@ -1,6 +1,6 @@
 {
     "name": "dev5softrix/page-module",
-    "type": "package",
+    "type": "laravel-module",
     "description": "",
     "authors": [
         {
